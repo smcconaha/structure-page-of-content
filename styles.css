@@ -1,0 +1,87 @@
+/* || General setup */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    background-color: #a9a9a9;
+}
+
+body {
+    width: 70%;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+/* || Typography */
+
+.details {
+    font-family:  'Roboto Condensed', sans-serif;
+    color: #2a2a2a;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    text-shadow: 2px 2px 10px black; 
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p,li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/* || Header layout */
+
+/*header {
+    margin-bottom: 10px;
+    display: block;
+    flex-flow: row wrap;
+}
+*/
+body > * {. /*what does this mean?*/
+    background-color: red;
+    padding: 1%;
+}
+
+main, header, nav, article, aside, footer, section {
+    background-color: rgba(0, 255, 0, 0.5);
+    padding: 1%;
+}
+
+h1 {
+    flex: 5;
+    text-transform: uppercase;
+}
+
+header img {
+    display: block;
+    height: 60px;
+    padding-top: 20.15px;
+}
+
+nav {
+    height: 50px;
+    flex: 100%;
+    display: flex;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
